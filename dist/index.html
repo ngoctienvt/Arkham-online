@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="vi">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="theme-color" content="#111817"><title>The Gathering · Arkham Horror</title>
+ <meta name="description" content="Chơi chiến dịch Night of the Zealot. Bản solo độc lập, giao diện tiếng Việt.">
+ <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%97%88%3C/text%3E%3C/svg%3E">
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="scene.css">
+ <link rel="stylesheet" href="house-map.css">
+</head>
+<body>
+ <header class="masthead"><a class="brand" href="./"><span class="brand-mark">◈</span><span>ARKHAM<span class="brand-sub">HORROR · THE CARD GAME</span></span></a><div class="scenario-heading"><span class="eyebrow">NIGHT OF THE ZEALOT / MÀN I</span><h1>The Gathering</h1></div><nav><button class="primary" data-layout-preview>Xem bàn 4 người</button><button id="help-button" class="quiet">? <span>Hướng dẫn</span></button><button id="slots-button" class="quiet">Ô lưu</button><button id="library-button" class="quiet">Thư viện lá</button><button id="history-button" class="quiet">Lịch sử</button><button id="sandbox-button" class="quiet">Sandbox</button><button id="sandbox-edit" class="quiet" hidden>Chỉnh Sandbox</button><button id="log-button" class="quiet">↓ <span>Nhật ký</span></button><button id="restart-button" class="quiet">↻ <span>Ván mới</span></button></nav></header>
+ <div id="app" aria-live="polite"><p class="loading">Đang chuẩn bị bàn chơi…</p></div>
+ <div id="modal-root"></div><div id="inspect-root"></div><div id="actor-preview" hidden aria-hidden="true"></div><div id="toast" role="status"></div>
+ <footer>BẢN THỬ SOLO · STANDARD · LƯU TỰ ĐỘNG TRÊN THIẾT BỊ <span>Fan-made · Nội dung Arkham Horror © Fantasy Flight Games</span></footer>
+ <script type="module" src="app.js"></script>
+</body>
+</html>

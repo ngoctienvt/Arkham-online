@@ -1,0 +1,15 @@
+[
+  {
+    "code": "02158",
+    "name": "Charisma",
+    "type_code": "asset",
+    "faction_code": "neutral",
+    "traits": "Talent.",
+    "text": "Permanent. You have 1 additional ally slot.",
+    "permanent": true,
+    "xp": 3,
+    "deck_limit": 2,
+    "quantity": 2,
+    "pack_code": "tece"
+  }
+]

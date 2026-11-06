@@ -1,0 +1,11 @@
+node_modules/
+*.tar.gz
+*.zip
+.sites/
+outputs/local-rooms.json
+outputs/local-rooms.json.tmp
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+

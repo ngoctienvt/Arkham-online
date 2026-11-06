@@ -1,0 +1,8 @@
+[
+  {
+    "code":"53002","name":"Survival Knife","pack_code":"rttfa","type_code":"asset",
+    "faction_code":"guardian","xp":2,"cost":2,"quantity":2,"deck_limit":2,
+    "skill_combat":2,"slot":"Hand","traits":"Item. Weapon. Melee.",
+    "text":"Fight. You get +2 combat for this attack. During the enemy phase, when an enemy attacks you, exhaust Survival Knife to fight that enemy before it attacks. You get +2 combat and deal +1 damage for that attack."
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "code": "05313",
+    "name": "Hallowed Mirror",
+    "type_code": "asset",
+    "faction_code": "guardian",
+    "xp": 0,
+    "cost": 2,
+    "quantity": 1,
+    "deck_limit": 1,
+    "skill_willpower": 1,
+    "slot": "Accessory",
+    "traits": "Item. Relic. Occult. Blessed.",
+    "bondedWith": {
+      "05314": 3
+    },
+    "text": "Limit 1 per deck. After this enters play, add 1 Soothing Melody from your bonded cards to your hand and shuffle up to 2 more into your deck. When this leaves play, set those copies aside.",
+    "pack_code": "bbt"
+  },
+  {
+    "code": "05314",
+    "name": "Soothing Melody",
+    "type_code": "event",
+    "faction_code": "guardian",
+    "cost": 0,
+    "quantity": 3,
+    "deck_limit": 0,
+    "skill_willpower": 1,
+    "skill_intellect": 1,
+    "skill_agility": 1,
+    "traits": "Spell.",
+    "bondedParent": "05313",
+    "text": "Bonded (Hallowed Mirror). Heal up to 2 damage or horror in any combination from your investigator or Ally assets at your location. Draw 1 card.",
+    "pack_code": "bbt"
+  },
+  {
+    "code": "05316",
+    "name": "Occult Lexicon",
+    "type_code": "asset",
+    "faction_code": "seeker",
+    "pack_code": "bbt",
+    "xp": 0,
+    "cost": 2,
+    "quantity": 1,
+    "deck_limit": 1,
+    "skill_intellect": 1,
+    "slot": "Hand",
+    "traits": "Item. Tome. Occult.",
+    "bondedWith": {
+      "05317": 3
+    },
+    "text": "Limit 1 per deck. After this enters play, add 1 Blood-Rite from your bonded cards to your hand and shuffle up to 2 more into your deck. When this leaves play, set those copies aside."
+  },
+  {
+    "code": "05317",
+    "name": "Blood-Rite",
+    "type_code": "event",
+    "faction_code": "seeker",
+    "pack_code": "bbt",
+    "cost": 0,
+    "quantity": 3,
+    "deck_limit": 0,
+    "skill_willpower": 1,
+    "skill_intellect": 1,
+    "skill_combat": 1,
+    "traits": "Spell.",
+    "bondedParent": "05316",
+    "text": "Bonded (Occult Lexicon). Draw 2 cards. Discard up to 2 cards from your hand. For each discarded card, gain 1 resource or spend 1 resource to deal 1 damage to an enemy at your location. This action does not provoke attacks of opportunity."
+  }
+]

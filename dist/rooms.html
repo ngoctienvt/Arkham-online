@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="vi">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Phòng Arkham cục bộ</title>
+<link rel="stylesheet" href="style.css">
+<main class="dialog">
+ <a href="/">Về bàn offline</a>
+ <h1>Phòng Arkham cục bộ</h1>
+ <p>Tạo phòng và nhận ghế trên máy này. Phòng hiện hỗ trợ chờ người chơi.</p>
+ <form id="room-create">
+  <label>Số ghế <select name="capacity"><option>2</option><option>3</option><option>4</option></select></label>
+  <button>Tạo phòng</button>
+ </form>
+ <form id="room-join" hidden><button>Nhận ghế</button></form>
+ <button id="room-refresh" hidden>Cập nhật ghế</button>
+ <p id="room-status" role="status"></p>
+ <form id="room-deck" hidden>
+  <h2>Deck của bạn</h2>
+  <p id="room-selected-deck"></p>
+  <label>Deck dựng sẵn <select name="investigator">
+   <option value="01001">Roland Banks</option><option value="01003">“Skids” O’Toole</option>
+  </select></label>
+  <label>Hoặc chọn tệp deck JSON <input name="deck-file" type="file" accept=".json,application/json"></label>
+  <button>Lưu deck cho ghế này</button>
+ </form>
+ <label id="room-invite-label" hidden>Link mời <input id="room-invite" readonly></label>
+</main>
+<script type="module" src="rooms.js"></script>
+</html>
